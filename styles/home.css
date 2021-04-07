@@ -1,1 +1,38 @@
 /* add home page styles here */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+hr.hash {
+    border: 0;
+    height: 12px;
+    width: 100%;
+    background-image: url("../lab-assets/hr-img.png");
+    background-repeat: repeat;
+    background-size: 4px 4px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+h2 {
+    margin: 1px;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
