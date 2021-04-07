@@ -29,10 +29,39 @@ hr.hash {
 
 h2 {
     margin: 1px;
+    font-size: 40px;
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+}
+
+h3 {
+    font-size: small;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0;
+    color: rgb(150, 148, 148);
 }
 
 main {
     display:flex;
     flex-direction: column;
     max-width: 1000px;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+
+.print {
+    align-self: flex-end;
+    font-family: Oswald, sans-serif;
+    color: rgb(150, 148, 148);
+    text-transform: uppercase;
+    font-size: small;
+ 
 }
