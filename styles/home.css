@@ -88,3 +88,71 @@ ul {
     color:rgb(100, 100, 100)
 }
 
+.author-bio {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.why-make-me-do-this {
+    display: flex;
+}
+
+.author-photo {
+    margin: 5px;
+}
+
+h4 {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px 0 0 0;
+}
+
+.author-bio p {
+    margin: 1px;
+    color:rgb(100, 100, 100);
+}
+
+.share-button {
+	background-color:#b34332;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Oswald, sans-serif;
+	font-size:15px;
+	padding:0px 37px 0px 37px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+.share-button:hover {
+	background-color:#b34332;
+}
+.share-button:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+    color:rgb(100, 100, 100);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icon-hr {
+    border-top: solid rgb(100, 100, 100) 1px;
+    margin: 50px 0;
+    width: 850px;
+  }
+  .icon-hr:after {
+    content: url( '../lab-assets/small-logo.png' );
+    /* Controls the position of the logo */
+    left: 50%;
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    /* Controls the whitespace around the symbol */
+    padding: 20px;
+    background: #fff;
+  }
